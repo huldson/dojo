@@ -191,7 +191,7 @@ function BuracosTexto(texto){
             console.log("quantidade de buracos no texto é "+buracos)        
         }
 
-let romance =" melhor lugar do mundo é nossa casa perto  "
+let romance =" melhor lugar do mundo é nossa casa perto "
 
 
 BuracosTexto(romance)
