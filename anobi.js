@@ -8,3 +8,6 @@ else {
 }   
 }
 anosbis(400)
+anosbis(500)
+anosbis(600)
+anosbis(8000)
