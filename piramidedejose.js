@@ -1,20 +1,19 @@
 function staircase(n) {
     let piramide=[]
     let i,j,n2=n
-    let espaco=""
+    let espaco=""// começão sem espaço pois se declarar o espaço vai ter mais espaço que o exigido no problema
     piramide[0]="#"
    let carcter= "#"
-   let  carcter1="#"
     for(j=1;j<n2;j++){
         espaco=espaco+' ' 
                
     }
-    piramide[0]=espaco+carcter
+    piramide[0]=espaco+carcter// indice zero tem que ser feito separado
    
     
     espaco=''
     n2--
-for(i=1;i<=n;i++){
+for(i=1;i<=n;i++){// como fez o indice 0 separado, comece pelo numero 1
     piramide[i]=[]
     for(j=1;j<n2;j++){
         espaco=espaco+' '
@@ -35,4 +34,4 @@ for(i=1;i<=n;i++){
         console.log(piramide[i])
        
     }}
-    staircase(6)
+    staircase(10)
