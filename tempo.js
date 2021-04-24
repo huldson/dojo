@@ -9,7 +9,6 @@ function timeConversion(s) {
        }
    }
    console.log(s)
-   s.pop()
    console.log(s)
   console.log(hora+s)
  }
