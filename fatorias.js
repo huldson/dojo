@@ -31,8 +31,8 @@ for(let i=0;i<tamanho2;i++){
 
 return somador
 }
-let vari =[3,4]
-let vi =[24,48]
+let vari =[1]
+let vi =[100]
 
 
 console.log(getTotalX(vari,vi))
