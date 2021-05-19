@@ -41,7 +41,7 @@ for(let i =0;i<soma.length;i++){
 
 
 }}
-return soma}
+return soma[0]}
 
 
 

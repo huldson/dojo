@@ -22,8 +22,13 @@ for(let j=valorp;j>=p;j--){
     }
 
 }
-
-console.log(pagf+"\n"+pagt)}
+if(pagf>pagt){
+  return pagt  
+}
+else{
+ return pagf   
+}
+}
 
 let x = 6
 let y = 2

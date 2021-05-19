@@ -5,8 +5,6 @@ function getMoneySpent(keyboards, drives, b) {
 
 for(let i = keyboards.length-1;i>=0;i--){
     for(let j =drives.length-1;j>=0;j--){
-        console.log(i,j)
-        console.log(keyboards[i]+drives[j])
         if(keyboards[i]+drives[j]<=b){
 
             valor2=keyboards[i]+drives[j]
