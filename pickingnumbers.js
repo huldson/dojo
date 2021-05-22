@@ -62,6 +62,6 @@ for(let i =0;i<matriz.length;i++){
 return tamanho2 } 
 
 
-let vari =[1,2,2,3,1,2]
+let vari =[1,2,2,2,2,2]
 
 console.log(pickingNumbers(vari))

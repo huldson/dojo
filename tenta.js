@@ -1,0 +1,39 @@
+function climbingLeaderboard(ranked, player) {
+    let rankendc = []
+      let pontos= []
+    let verificador = 0
+    let controle = 0
+  for(let i = 0;i<ranked.length;i++){
+      if(!(i===ranked.length-1)){
+      if(!(ranked[i]==ranked[i+1])){
+      rankendc.push(ranked[i])
+      
+  }}if(i==ranked.length-1){
+  if(!(ranked[i]==ranked[i+1])){
+    rankendc.push(ranked[ranked.length-1])
+}}
+}
+ for(let i = 0;i<player.length;i++){
+     for(let j= rankendc.length-controle;j>=0;j--){
+        if(rankendc[j]<=player[i]){
+            console.log(player[i]+'>'+rankendc[j])
+        pontos[i]=(j+1)
+        controle++
+     }
+
+ }
+ if(pontos.length===0){
+     console.log(rankendc)
+    pontos.push(rankendc.length+1)
+    verificador++
+   } 
+}
+
+
+
+  return pontos
+  }
+  let x=[100,100,50,40,40,20,10]
+  let w=[5,25,50,120]
+
+  console.log(climbingLeaderboard(x,w))
