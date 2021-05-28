@@ -33,6 +33,10 @@ if(ranked[ranked.length-1]>player[0]){
                 }
             }
         }
+    }
+    else{
+        pontos.pop()
+        pontos.push(i-1)
     }    
 }
   if(ranked[0]<player[player.length-1]){

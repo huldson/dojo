@@ -41,8 +41,14 @@ function climbingLeaderboard(ranked, player) {
   return pontos
   }
 
-let x=[100,100,50,40,40,20,10]
-let w=[5,25,50,120]
-
-
-console.log(climbingLeaderboard(x,w))
+  let x=[100,100,50,40,40,20,10]
+  let w=[5,25,50,120]
+  
+  
+  let e = [100,100,90,90,80,75,60]
+  
+  let t =[50,65,77,90,102]
+  
+  
+  console.log(climbingLeaderboard(x,w)) 
+  console.log(climbingLeaderboard(e,t)) 
