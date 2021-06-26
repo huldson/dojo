@@ -10,6 +10,7 @@ function climbingLeaderboard(ranked, player) {
       rankendc.push(ranked[i])
       
   }}if(i==ranked.length-1){
+      console.log('entrou')
   if(!(ranked[i]==ranked[i+1])){
     rankendc.push(ranked[ranked.length-1])
 }}
@@ -17,6 +18,7 @@ function climbingLeaderboard(ranked, player) {
  for(let i = 0;i<player.length;i++){
      valor = 0
      for(let j= rankendc.length-controle;j>=0;j--){
+         if(rankendc[j]>player[player.length-1]){break}
         if(rankendc[j]<=player[i]){
             console.log(player[i]+'>'+rankendc[j])
         pontos[i]=(j+1)
